@@ -1,11 +1,11 @@
 Marca temporal,sexo,edad ,gusto elote ,condimentos favoritos,precio,formato presentacion,intolerante lactosa,grado de coccion
 2024/10/23 9:24:15 a. m. GMT-6,Femenino,18 - 25,Sí,Crema,$35 ,En bandeja,No,Tierno
 2024/10/23 9:26:05 a. m. GMT-6,Masculino,18 - 25,Sí,Crema,$40 ,En bandeja,No,Cualquiera de los dos
-2024/10/23 9:43:40 a. m. GMT-6,Mapache,14-Jan,Sí,Sal,$35 ,En bandeja,Sí,Cualquiera de los dos
+2024/10/23 9:43:40 a. m. GMT-6,Mapache,1 - 14,Sí,Sal,$35 ,En bandeja,Sí,Cualquiera de los dos
 2024/10/23 7:04:39 p. m. GMT-6,Femenino,36 - 50,Sí,Chile en polvo,$35 ,En vaso,Sí,Cualquiera de los dos
 2024/10/23 7:15:12 p. m. GMT-6,Masculino,15 - 17,No,,,,,
 2024/10/23 7:45:50 p. m. GMT-6,Femenino,15 - 17,Sí,Chile en aceite,$40 ,En bandeja,No,Tierno
-2024/10/23 8:02:43 p. m. GMT-6,Masculino,14-Jan,Sí,Chile en polvo,$30 ,En vaso,Sí,Tierno
+2024/10/23 8:02:43 p. m. GMT-6,Masculino,1 - 14,Sí,Chile en polvo,$30 ,En vaso,Sí,Tierno
 2024/10/23 8:07:01 p. m. GMT-6,Masculino,18 - 25,Sí,Sal,$35 ,En bandeja,No,Tierno
 2024/10/23 8:12:17 p. m. GMT-6,Masculino,18 - 25,Sí,Papas,$40 ,En bandeja,No,Tierno
 2024/10/23 8:38:16 p. m. GMT-6,Masculino,18 - 25,Sí,Crema,$35 ,En bandeja,No,Tierno
@@ -13,7 +13,7 @@ Marca temporal,sexo,edad ,gusto elote ,condimentos favoritos,precio,formato pres
 2024/10/23 9:52:20 p. m. GMT-6,Masculino,18 - 25,No lo he probado,Sal;Lim�n;Crema,$40 ,En vaso,No,Maduro
 2024/10/23 9:54:48 p. m. GMT-6,Masculino,18 - 25,Sí,Sal;Lim�n;Crema,$40 ,En vaso,No,Cualquiera de los dos
 2024/10/23 9:54:58 p. m. GMT-6,Masculino,18 - 25,Sí,Sal;Lim�n;Crema,$35 ,En palo,No,Cualquiera de los dos
-2024/10/23 10:30:36 p. m. GMT-6,Duro,(+76),Sí,Sal;Chile en polvo;Crema,$30 ,En vaso,No,Cualquiera de los dos
+2024/10/23 10:30:36 p. m. GMT-6,Duro,76+,Sí,Sal;Chile en polvo;Crema,$30 ,En vaso,No,Cualquiera de los dos
 2024/10/23 11:27:21 p. m. GMT-6,Jeep Cherokee ,18 - 25,Sí,Sal;Lim�n;Chile en polvo;Crema,$30 ,En palo,No,Cualquiera de los dos
 2024/10/24 12:11:19 a. m. GMT-6,Masculino,18 - 25,Sí,Lim�n;Chile en salsa;Crema,$40 ,En palo,No,Cualquiera de los dos
 2024/10/24 5:02:22 a. m. GMT-6,Femenino,51 - 65,Sí,Sal;Chile en polvo;Crema,$30 ,En palo,No,Tierno
@@ -33,7 +33,7 @@ Marca temporal,sexo,edad ,gusto elote ,condimentos favoritos,precio,formato pres
 2024/10/24 8:23:46 a. m. GMT-6,Masculino,18 - 25,Sí,Chile en aceite;Papas;Crema,$30 ,En bandeja,No,Tierno
 2024/10/24 8:23:57 a. m. GMT-6,Femenino,18 - 25,Sí,Sal;Lim�n;Chile en polvo;Crema,$35 ,En bandeja,No,Tierno
 2024/10/24 8:23:58 a. m. GMT-6,Femenino,18 - 25,Sí,Sal;Lim�n;Chile en polvo;Papas,$35 ,En bandeja,No,Cualquiera de los dos
-2024/10/24 8:23:59 a. m. GMT-6,Metrosexual,(+76),Sí,Sal;Lim�n;Chile en polvo;Chile en salsa;Chile en aceite;Papas;Crema,$25 ,En vaso,Sí,Maduro
+2024/10/24 8:23:59 a. m. GMT-6,Metrosexual,76+,Sí,Sal;Lim�n;Chile en polvo;Chile en salsa;Chile en aceite;Papas;Crema,$25 ,En vaso,Sí,Maduro
 2024/10/24 8:24:01 a. m. GMT-6,Agresivo ,18 - 25,Sí,Crema,$35 ,En vaso,No,Cualquiera de los dos
 2024/10/24 8:24:02 a. m. GMT-6,Masculino,18 - 25,Sí,Sal;Lim�n;Chile en polvo,$30 ,En vaso,No,Tierno
 2024/10/24 8:24:07 a. m. GMT-6,"Helicoptero de combate con motores gemelos Cuerpo: McDonnell Douglas (actual Boeing). Motor: Un motor T700-GE-701 de General Electric y, en la versi�n brit�nica, un motor RTM322 de Rolls-Royce/Turbomeca. Longitud: 15,54 metros. Altura total: 4, 95 metros.",18 - 25,Sí,Sal;Chile en polvo;Crema,$35 ,En bandeja,No,Tierno
@@ -55,7 +55,7 @@ Marca temporal,sexo,edad ,gusto elote ,condimentos favoritos,precio,formato pres
 2024/10/24 10:36:12 a. m. GMT-6,Femenino,18 - 25,Sí,Chile en aceite;Papas;Crema,$40 ,En bandeja,Sí,Tierno
 2024/10/24 10:40:48 a. m. GMT-6,Femenino,36 - 50,Sí,Crema,$30 ,En vaso,No lo Sí,Tierno
 2024/10/24 12:37:00 p. m. GMT-6,Femenino,18 - 25,Sí,Sal;Lim�n;Chile en polvo,$30 ,En vaso,No,Tierno
-2024/10/24 1:35:02 p. m. GMT-6,Masculino,14-Jan,Sí,Sal;Lim�n;Chile en polvo,$30 ,En vaso,Sí,Tierno
+2024/10/24 1:35:02 p. m. GMT-6,Masculino,1 - 14,Sí,Sal;Lim�n;Chile en polvo,$30 ,En vaso,Sí,Tierno
 2024/10/24 1:51:57 p. m. GMT-6,Femenino,36 - 50,Sí,Sal;Lim�n;Chile en polvo,$25 ,En vaso,No lo Sí,Maduro
 2024/10/24 2:21:14 p. m. GMT-6,Femenino,15 - 17,Sí,Sal;Lim�n;Chile en polvo;Crema,$35 ,En vaso,No,Tierno
 2024/10/24 2:27:50 p. m. GMT-6,Masculino,18 - 25,Sí,Lim�n;Chile en polvo;Chile en aceite,$25 ,En vaso,No,Tierno
