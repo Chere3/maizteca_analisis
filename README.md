@@ -79,6 +79,13 @@ pip install pandas matplotlib jupyter
    jupyter notebook main.ipynb
    ```
 
+### Comandos rápidos
+
+```bash
+make install
+make validate
+```
+
 ## 📈 Visualizaciones Incluidas
 
 - Distribución demográfica de encuestados
