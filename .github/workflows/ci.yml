@@ -25,6 +25,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install -e .
           pip install nbconvert nbformat
 
       - name: Validate notebook format
@@ -40,6 +41,15 @@ jobs:
             print(f'✗ Notebook format invalid: {e}')
             sys.exit(1)
           "
+
+      - name: Run unit tests
+        run: pytest -q
+
+      - name: Build executive report
+        run: python scripts/build_report.py
+
+      - name: Validate report artifact
+        run: test -s reports/market-summary.md
 
       - name: Check requirements.txt
         run: |

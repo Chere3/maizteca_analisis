@@ -18,11 +18,13 @@ Este proyecto presenta un análisis detallado de un estudio de mercado para eval
 
 ```
 maizteca_analisis/
-├── main.ipynb           # Notebook principal con análisis
+├── main.ipynb                 # Notebook principal con análisis
 ├── data/
-│   └── maizteca.csv     # Datos de la encuesta (60 respuestas)
-├── assets/
-│   └── fonts/           # Fuentes personalizadas para visualizaciones
+│   └── maizteca.csv           # Datos de la encuesta (60 respuestas)
+├── src/maizteca/reporting.py  # Métricas + render de reporte ejecutivo
+├── scripts/build_report.py    # Generador de reporte markdown
+├── tests/test_reporting.py    # Pruebas unitarias de capa analítica
+├── reports/                   # Salidas generadas
 └── README.md
 ```
 
@@ -56,13 +58,33 @@ pip install pandas matplotlib jupyter
 
 2. Instala dependencias:
    ```bash
+   python -m venv .venv
+   source .venv/bin/activate
    pip install -r requirements.txt
+   pip install -e .
    ```
 
-3. Abre el notebook:
+3. Ejecuta validación + pruebas:
+   ```bash
+   pytest -q
+   ```
+
+4. Genera reporte ejecutivo automatizado:
+   ```bash
+   python scripts/build_report.py
+   ```
+
+5. Abre el notebook:
    ```bash
    jupyter notebook main.ipynb
    ```
+
+### Comandos rápidos
+
+```bash
+make install
+make validate
+```
 
 ## 📈 Visualizaciones Incluidas
 
