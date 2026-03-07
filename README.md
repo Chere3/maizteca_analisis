@@ -23,6 +23,13 @@ maizteca_analisis/
 │   └── maizteca.csv     # Datos de la encuesta (60 respuestas)
 ├── assets/
 │   └── fonts/           # Fuentes personalizadas para visualizaciones
+├── scripts/
+│   ├── validate_data.py # Validación de calidad del dataset
+│   └── generate_summary.py # Resumen ejecutivo automático
+├── reports/
+│   └── executive-summary.md # Se genera automáticamente
+├── .github/workflows/
+│   └── data-quality.yml # CI para validación
 └── README.md
 ```
 
@@ -59,10 +66,26 @@ pip install pandas matplotlib jupyter
    pip install -r requirements.txt
    ```
 
-3. Abre el notebook:
+3. Corre validaciones de calidad:
+   ```bash
+   make validate
+   ```
+
+4. Genera resumen ejecutivo en markdown:
+   ```bash
+   make summary
+   ```
+
+5. Abre el notebook:
    ```bash
    jupyter notebook main.ipynb
    ```
+
+## ✅ Calidad y reproducibilidad
+
+- `make validate`: valida columnas requeridas y missing values del dataset
+- `make summary`: crea `reports/executive-summary.md` con hallazgos clave
+- GitHub Actions ejecuta `make check` en cada push/PR
 
 ## 📈 Visualizaciones Incluidas
 
